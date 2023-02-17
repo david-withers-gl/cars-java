@@ -1,0 +1,15 @@
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+
+elasticsearch:
+  host: localhost
+  port: 9200
+  username: elastic
+  password: Uvnfc9nCO6AeeEiIGFWw
+
+jwt:
+  private.key: classpath:jwt.key
+  public.key: classpath:jwt.pub
